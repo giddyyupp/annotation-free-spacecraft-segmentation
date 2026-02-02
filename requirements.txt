@@ -1,0 +1,7 @@
+tqdm
+pycocotools
+numpy
+matplotlib
+opencv-python
+ensemble-boxes
+supervision

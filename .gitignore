@@ -7,7 +7,8 @@ __pycache__/
 *.egg*
 build/*
 _C.*
-outputs/*
+outputs/
+outputs_anomaly/
 checkpoints/*.pt
 *test*
 # Byte-compiled / optimized / DLL files
@@ -145,3 +146,6 @@ dmypy.json
 outputs/
 
 .idea/
+
+dinov2-lora-space-distilled/
+visualizations/
