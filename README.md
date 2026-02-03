@@ -24,28 +24,15 @@ BibTeX entry:
 ```
 
 ## Abstract
-Vision Language Models (VLMs) have demon-
-strated remarkable performance in open-world zero-shot visual
-recognition. However, their potential in space-related appli-
-cations remains largely unexplored. In the space domain,
-accurate manual annotation is particularly challenging due to
-factors such as low visibility, illumination variations, and object
-blending with planetary backgrounds. Developing methods that
+Vision Language Models (VLMs) have demonstrated remarkable performance in open-world zero-shot visual recognition. However, their potential in space-related applications remains largely unexplored. In the space domain, accurate manual annotation is particularly challenging due to factors such as low visibility, illumination variations, and object blending with planetary backgrounds. Developing methods that
 can detect and segment spacecraft and orbital targets without
-requiring extensive manual labeling is therefore of critical im-
-portance. In this work, we propose an annotation-free detection
-and segmentation pipeline for space targets using VLMs. Our
+requiring extensive manual labeling is therefore of critical importance. In this work, we propose an annotation-free detection and segmentation pipeline for space targets using VLMs. Our
 approach begins by automatically generating pseudo-labels for
 a small subset of unlabeled real data with a pre-trained VLM.
 These pseudo-labels are then leveraged in a teacher–student
 label distillation framework to train lightweight models. Despite
 the inherent noise in the pseudo-labels, the distillation process
-leads to substantial performance gains over direct zero-shot
-VLM inference. Experimental evaluations on the SPARK-
-2024, SPEED+, and TANGO datasets on segmentation tasks
-demonstrate consistent improvements in average precision (AP)
-by up to 10 points. 
-
+leads to substantial performance gains over direct zero-shot VLM inference. Experimental evaluations on the SPARK-2024, SPEED+, and TANGO datasets on segmentation tasks demonstrate consistent improvements in average precision (AP) by up to 10 points. 
 
 
 
@@ -176,6 +163,7 @@ You can use the saved json file for the training of [EfficientDet](https://githu
 For inference, you can use the validation jsons shared in the HF link above.
 
 
+We share pretrained models using EfficientDet and Yolov11 for both detection and segmentation in [HF](https://huggingface.co/samethi/annotation-free-spacecraft-segmentation).
 
 
 ----------------
