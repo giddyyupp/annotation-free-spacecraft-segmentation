@@ -161,11 +161,11 @@ We share pretrained models using EfficientDet and Yolov11 for both detection and
 # Citation
 
 ```
-@article{aa,
-      title={Annotation Free Spacecraft Detection and Segmentation using Vision Language Models}, 
-      author={Samet Hicsonmez, Jose Sosa, Dan Pineau, Inder Pal Singh, Arunkumar Rathinam, Abd El Rahman Shabayek, Djamila Aouada},
-      year={2026},
-      journal={arXiv preprint arXiv:}
+@inproceedings{hicsonmez2026afss,
+    title={Annotation Free Spacecraft Detection and Segmentation using Vision Language Models}, 
+    author={Samet Hicsonmez, Jose Sosa, Dan Pineau, Inder Pal Singh, Arunkumar Rathinam, Abd El Rahman Shabayek, Djamila Aouada},
+    year={2026},
+    booktitle={IEEE International Conference on Robotics and Automation (ICRA)}
 }
 ```
 
