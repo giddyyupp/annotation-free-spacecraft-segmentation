@@ -99,7 +99,7 @@ The folder structure should look like below in the end:
 ```
 
 #### 2.1. Spark
-Register and donwload the dataset from [here](https://cvi2.uni.lu/spark2024/).
+Register and download the dataset from [here](https://cvi2.uni.lu/spark2024/).
 
 
 #### 2.2. Speed+
